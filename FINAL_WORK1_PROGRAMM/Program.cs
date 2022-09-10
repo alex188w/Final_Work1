@@ -2,7 +2,7 @@
 int size = stringArray.Length;
 string[] stringArraySort = new string[size];
 
-Console.WriteLine("Введите любые 4 слова (набор букв, символов) через нажатие Enter:");
+Console.WriteLine("Введите 4 слова (набор букв, символов) через нажатие Enter:");
 for (int i = 0; i < stringArray.Length; i++)
 {
     stringArray[i] = Console.ReadLine();
